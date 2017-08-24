@@ -17,6 +17,11 @@ export class RecipeListComponent implements OnInit {
   ngOnInit() {
   }
 
+  createRecipe() {
+    var recipe = new Recipe('A Test Recipe', 'test', 'http://www.seriouseats.com/recipes/assets_c/2015/12/20151218-braised-chicken-thigh-cabbage-pancetta-recipe-kenji-14-thumb-1500xauto-428923.jpg');
+    this.recipes.push(recipe);
+  }
+
 
 
 }
