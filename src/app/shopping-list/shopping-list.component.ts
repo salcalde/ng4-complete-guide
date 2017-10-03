@@ -15,7 +15,6 @@ export class ShoppingListComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log('testing commit process');
   }
 
 }
