@@ -14,9 +14,11 @@ export class ShoppingListComponent implements OnInit {
 
   constructor() { 
     console.log('pretend this is a commit from another user');
+    console.log('pretend changes are made here');
   }
 
   ngOnInit() {
+    console.log('a');
   }
 
 }
