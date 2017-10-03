@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class RecipeDetailComponent implements OnInit {
 
   constructor() {
+    console.log('testing more commits');
    }
 
   ngOnInit() {
